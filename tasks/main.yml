@@ -1,0 +1,10 @@
+---
+- name: Install Packages | pip
+  pip:
+    state: latest
+    name: "{{ item }}"
+  with_items:
+    - s3cmd
+  tags:
+    - software-installation
+    - using-pip

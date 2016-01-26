@@ -1,0 +1,17 @@
+---
+dependencies:
+  - role: telusdigital.python
+
+galaxy_info:
+  author: Aaron Pederson
+  company: "TELUS digital"
+  description: s3cmd - a command line tool and client for uploading, retrieving and managing data in Amazon S3.
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+  categories:
+    - cloud:ec2
+    - system
+    - networking
