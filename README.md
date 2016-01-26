@@ -1,6 +1,7 @@
 # ansible-s3cmd
 
 [s3cmd](http://s3tools.org/s3cmd) a command line tool and client for uploading, retrieving and managing data in Amazon S3.
+
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 [![Build Status](https://travis-ci.org/telusdigital/ansible-s3cmd.svg?branch=master)](https://travis-ci.org/telusdigital/ansible-s3cmd)
 
