@@ -1,0 +1,10 @@
+---
+- name: "Upload Config"
+  template:
+    src: "{{ item }}"
+    dest: "/{{ item }}"
+  with_items:
+    - .s3cfg
+  tags:
+    - configuration
+    - template-configuration
