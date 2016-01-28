@@ -27,6 +27,7 @@ script:
   - "ansible-playbook -i tests/inventory tests/$PLAYBOOK --connection=local --sudo"
 
   # make sure s3cmd has been installed
-  - "s3cmd"
+  - "s3cmd --help"
 
   # make sure s3cmd has been configured to access the specific bucket
+  - "cat /root/.s3cfg"
