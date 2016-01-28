@@ -1,5 +1,3 @@
 ---
 s3cmd_aws_access_key: "{{ mandatory }}"
 s3cmd_aws_secret_key: "{{ mandatory }}"
-s3cmd_use_https: yes
-s3cmd_use_encoding_type: UTF-8

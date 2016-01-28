@@ -9,8 +9,6 @@ Tunables
 --------
 * ```s3cmd_aws_access_key``` (string) - AWS access key for s3cmd user.
 * ```s3cmd_aws_secret_key``` (string) - AWS secret key for s3cmd user.
-* ```s3cmd_use_https``` (boolean) - Should s3 traffic be done over https?
-* ```s3cmd_use_encoding_type``` (string) - What sort of encoding should be utilized?
 
 Dependencies
 ------------
