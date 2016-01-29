@@ -6,9 +6,5 @@
   roles:
     # name of role to test
     - role: ansible-s3cmd
-      system_role: travis
-      project: travis
-      environment_tier: travis
-      domain: travis
-      s3cmd_aws_access_key: 'REDACTED'
-      s3cmd_aws_secret_key: 'REDACTED'
+      s3cmd_aws_access_key: REDACTED
+      s3cmd_aws_secret_key: REDACTED
