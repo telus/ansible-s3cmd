@@ -1,0 +1,3 @@
+---
+s3cmd_aws_access_key: "{{ mandatory }}"
+s3cmd_aws_secret_key: "{{ mandatory }}"
